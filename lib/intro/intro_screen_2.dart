@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taaruf_app/intro/intro_screen_3.dart'; // Import IntroScreen3
+import 'package:taaruf_/intro/intro_screen_3.dart';
 
 class IntroScreen2 extends StatelessWidget {
   @override

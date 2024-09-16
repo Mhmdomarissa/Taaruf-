@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taaruf_app/intro/intro_screen.dart'; // Adjust according to your app's package name
+import 'intro/intro_screen.dart'; // Import IntroScreen3
 
 void main() {
   runApp(MyApp());
@@ -10,7 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroScreen(), // Start with the first intro screen
+      title: 'Taaruf App',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
+      home: IntroScreen(), // Set IntroScreen3 as the initial screen
     );
   }
 }

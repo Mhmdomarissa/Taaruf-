@@ -1,4 +1,4 @@
-name: taaruf_app
+name: taaruf_
 description: "A fresh start for the Taaruf app."
 
 version: 1.0.0+1
@@ -10,8 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^1.1.1+1 
+  google_fonts: ^5.0.0
+  intl_phone_field: ^3.0.0
 
-  # Default iOS Cupertino icons
+ 
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -27,3 +29,7 @@ flutter:
     - assets/images/intro1.png
     - assets/images/intro2.png
     - assets/images/intro3.png
+    - assets/images/headsign.png
+    - assets/images/lebanon.png
+    - assets/images/logo.png
+    

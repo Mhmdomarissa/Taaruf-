@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'sign_in_screen.dart';
 
 class IntroScreen3 extends StatelessWidget {
   @override
@@ -67,7 +68,12 @@ class IntroScreen3 extends StatelessWidget {
                     SizedBox(height: 20), // Space before the button
                     ElevatedButton(
                       onPressed: () {
-                        // Add functionality here for the next action
+                        // Navigate to SignInScreen
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => SignInScreen()),
+                        );
                       },
                       style: ElevatedButton.styleFrom(
                         padding: EdgeInsets.symmetric(
